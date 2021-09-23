@@ -4,7 +4,7 @@
   "description": "Tic Tac Toe kata running in Node.js, written in TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "jest tests/"
+    "test": "jest tests/ && gittey commit"
   },
   "author": "",
   "license": "MIT",
