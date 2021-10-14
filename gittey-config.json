@@ -31,6 +31,26 @@
         {
             "name": "push",
             "command": "gittey pull; git push"
+        },
+        {
+            "name": "session:start",
+            "command": "gittey new-branch"
+        },
+        {
+            "name": "session:switch",
+            "command": "gittey push"
+        },
+        {
+            "name": "session:sync",
+            "command": "gittey pull"
+        },
+        {
+            "name": "session:init",
+            "command": "gittey checkout --remote"
+        },
+        {
+            "name": "session:end",
+            "command": "gittey commit; gittey merge-to-branch; gittey push"
         }
     ],
     "collaborators": [
